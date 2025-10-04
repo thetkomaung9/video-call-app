@@ -74,6 +74,6 @@ class _Logo extends StatelessWidget {
   Widget build (BuildContext context){
     return Center(
       child: Image.asset(
-        'asset/img/call.png'),
+        'asset/img/home_image.png',),
     )
  }
