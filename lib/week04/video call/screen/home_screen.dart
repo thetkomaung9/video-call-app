@@ -91,7 +91,8 @@ class _Logo extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         ElevatedButton(
-          
+          onPressed: () {},
+          child: Text('')
         )
       ]
     )
