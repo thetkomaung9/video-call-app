@@ -63,7 +63,7 @@ class _Logo extends StatelessWidget {
             ],
           ),
         ),
-      )
-    )
+      ),
+    );
   }
 }
