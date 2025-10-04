@@ -30,5 +30,12 @@ initializeCamera() async {
     await controller.initialize();
 
     setState(() {});
-  } catch (e)
+  } catch (e){
+    if (e is CameraException){
+      switch (e.code){
+        case 'CameraAccessDenied':
+        
+      }
+    }
+  }
 }
