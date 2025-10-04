@@ -32,7 +32,8 @@ class _Logo extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           color: Colors.blue,
-          border
+          borderRadius: BorderRadius.circular(16.0),
+          
         )
       )
     )
