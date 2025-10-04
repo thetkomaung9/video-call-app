@@ -92,9 +92,9 @@ class _Logo extends StatelessWidget {
       children: [
         ElevatedButton(
           onPressed: () {},
-          child: Text('입)
-        )
-      ]
-    )
+          child: Text('입장하기'),
+        ),
+      ],
+    );
   }
  }
