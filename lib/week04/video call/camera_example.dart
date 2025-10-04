@@ -27,6 +27,8 @@ class _CameraAppState extends State<CameraApp> {
 initializeCamera() async {
   try {
     controller = CameraController(_cameras[0], ResolutionPreset.max);
-    
-  }
+    await controller.initialize();
+
+    setState(() {});
+  } ca
 }
