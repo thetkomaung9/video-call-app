@@ -47,7 +47,8 @@ class _Logo extends StatelessWidget {
             mainAxisSize: mainAxisSize.min,
             children: [
               Icon(
-                
+                Icons.videocam,
+                color: Colors.white,
               )
             ]
           )
