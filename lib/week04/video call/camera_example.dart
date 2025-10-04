@@ -24,4 +24,8 @@ class _CameraAppState extends State<CameraApp> {
 
     initializeCamera();
 }
-ini
+initializeCamera() async {
+  try {
+    controller = CameraController(_cameras[0], )
+  }
+}
