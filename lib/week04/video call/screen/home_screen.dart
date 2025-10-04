@@ -89,6 +89,11 @@ class _Logo extends StatelessWidget {
     return Column(
       mainAxisAligment: MainAxisAlignment.end,
       crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        ElevatedButton(
+          
+        )
+      ]
     )
   }
  }
