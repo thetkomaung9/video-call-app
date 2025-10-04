@@ -13,7 +13,8 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               Expanded(child: _Logo()),
-              
+              Expanded(child: _Image()),
+              Expanded(child: _EntryButton()),
             ]
           )
         )
