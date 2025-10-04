@@ -17,5 +17,9 @@ class CameraApp extends StatefulWidget {
   
 }
 class _CameraAppState extends State<CameraApp> {
-  late Camera
+  late CameraController controller;
+  @override
+  void initState() {
+    super.initState();
+    
 }
