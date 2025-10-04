@@ -34,7 +34,11 @@ initializeCamera() async {
     if (e is CameraException){
       switch (e.code){
         case 'CameraAccessDenied':
-        
+        break;
+        default:
+        print('Handle other errors');
+        break;
+
       }
     }
   }
