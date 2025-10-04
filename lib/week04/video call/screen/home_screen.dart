@@ -55,11 +55,14 @@ class _Logo extends StatelessWidget {
               Text(
                 'LIVE',
                 style: TextStyle(
-                  color: 
-              )
-            ]
-          )
-        )
+                  color: Colors.white,
+                  fontSize: 30.0,
+                  letterSpacing: 4.0,
+              ),
+              ),
+            ],
+          ),
+        ),
       )
     )
   }
