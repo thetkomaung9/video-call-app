@@ -33,7 +33,11 @@ class _Logo extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.blue,
           borderRadius: BorderRadius.circular(16.0),
-          
+          boxShadow: [
+            BoxShadow(
+              
+            )
+          ]
         )
       )
     )
