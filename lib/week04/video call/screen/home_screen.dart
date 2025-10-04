@@ -9,7 +9,10 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.blue[100],
       body: SafeArea(
         child: Padding(
-          
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            
+          )
         )
       )
     );
