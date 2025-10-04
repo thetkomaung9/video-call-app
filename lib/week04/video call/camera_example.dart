@@ -21,5 +21,6 @@ class _CameraAppState extends State<CameraApp> {
   @override
   void initState() {
     super.initState();
-    
+
+    initializeCamera();
 }
