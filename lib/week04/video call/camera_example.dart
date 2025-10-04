@@ -49,4 +49,7 @@ void dispose() {
   super.dispose();
 }
 @override
-Widget build(BuildContext context) 
+Widget build(BuildContext context) {
+
+  if(!controller.value.is)
+}
