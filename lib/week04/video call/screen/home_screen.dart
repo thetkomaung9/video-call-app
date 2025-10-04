@@ -85,5 +85,10 @@ class _Logo extends StatelessWidget {
   const _EntryButton({Key? key}) : super (key: key);
 
   @override
-  Widget build
+  Widget build(BuildContext context){
+    return Column(
+      mainAxisAligment: MainAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+    )
+  }
  }
