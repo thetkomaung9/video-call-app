@@ -76,6 +76,7 @@ class _Logo extends StatelessWidget {
       child: Image.asset(
         'asset/img/home_image.png',
     ),
-    ),
+    );
+  }
     
  }
