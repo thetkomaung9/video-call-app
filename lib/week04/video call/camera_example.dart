@@ -24,3 +24,4 @@ class _CameraAppState extends State<CameraApp> {
 
     initializeCamera();
 }
+ini
