@@ -49,6 +49,13 @@ class _Logo extends StatelessWidget {
               Icon(
                 Icons.videocam,
                 color: Colors.white,
+                size: 40.0,
+              ),
+              SizedBox(width: 12.0),
+              Text(
+                'LIVE',
+                style: TextStyle(
+                  color: 
               )
             ]
           )
