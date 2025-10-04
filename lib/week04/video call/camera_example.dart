@@ -55,6 +55,7 @@ Widget build(BuildContext context) {
     return Container();
   }
   return MaterialApp(
-    home: Cam
-  )
+    home: CameraPreview(controller),
+  );
+}
 }
