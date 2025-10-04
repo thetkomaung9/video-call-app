@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.my_video_call_app">
-    
+    <uses-permission android:name="android.permiss"/>
 
     <application
         android:label="my_video_call_app"
