@@ -51,5 +51,10 @@ void dispose() {
 @override
 Widget build(BuildContext context) {
 
-  if(!controller.value.is)
+  if(!controller.value.isInitialized){
+    return Container();
+  }
+  return MaterialApp(
+    home: Cam
+  )
 }
