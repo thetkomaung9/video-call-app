@@ -92,7 +92,7 @@ class _Logo extends StatelessWidget {
       children: [
         ElevatedButton(
           onPressed: () {},
-          child: Text('')
+          child: Text('입)
         )
       ]
     )
