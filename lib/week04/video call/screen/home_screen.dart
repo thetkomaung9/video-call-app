@@ -39,7 +39,18 @@ class _Logo extends StatelessWidget {
               blurRadius: 12.0,
               spreadRadius: 2.0,
             ),
-          ]
+          ],
+        ),
+        child: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Row(
+            mainAxisSize: mainAxisSize.min,
+            children: [
+              Icon(
+                
+              )
+            ]
+          )
         )
       )
     )
