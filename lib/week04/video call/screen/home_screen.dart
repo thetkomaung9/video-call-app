@@ -81,4 +81,9 @@ class _Logo extends StatelessWidget {
     
  }
 
- class _En
+ class _EntryButton extends StatelessWidget{
+  const _EntryButton({Key? key}) : super (key: key);
+
+  @override
+  Widget build
+ }
