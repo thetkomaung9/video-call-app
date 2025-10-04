@@ -68,5 +68,12 @@ class _Logo extends StatelessWidget {
   }
 }
  class _Image extends StatelessWidget {
-  const _Image ({})
+  const _Image ({Key? key}) : super (key: key);
+
+  @override
+  Widget build (BuildContext context){
+    return Center(
+      child: Image.asset(
+        'asset/img/call.png'),
+    )
  }
