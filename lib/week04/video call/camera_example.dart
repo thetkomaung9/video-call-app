@@ -16,3 +16,6 @@ class CameraApp extends StatefulWidget {
   State<CameraApp> createState() => _CameraAppState();
   
 }
+class _CameraAppState extends State<CameraApp> {
+  
+}
