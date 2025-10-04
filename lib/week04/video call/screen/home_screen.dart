@@ -29,7 +29,12 @@ class _Logo extends StatelessWidget {
   @override
   Widget build (BuildContext context){
     return Center(
-      child: 
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.blue,
+          border
+        )
+      )
     )
   }
 }
