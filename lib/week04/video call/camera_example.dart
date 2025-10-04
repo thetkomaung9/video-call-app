@@ -30,5 +30,5 @@ initializeCamera() async {
     await controller.initialize();
 
     setState(() {});
-  } ca
+  } catch (e)
 }
