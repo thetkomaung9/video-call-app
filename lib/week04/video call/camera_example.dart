@@ -12,4 +12,5 @@ Future<void> main() async {
 
 class CameraApp extends StatefulWidget {
   const CameraApp({Key? key}) : super(key: key);
+  
 }
