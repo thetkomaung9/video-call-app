@@ -67,4 +67,6 @@ class _Logo extends StatelessWidget {
     );
   }
 }
- class _Image 
+ class _Image extends StatelessWidget {
+  const _Image ({})
+ }
