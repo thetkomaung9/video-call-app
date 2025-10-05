@@ -80,9 +80,11 @@ class _CamScreenState extends State<CamScreen> {
           token: TEMP_TOKEN,
           channelId: CHANNEL_NAME,
 
-          options
-        )
+          options: ChannelMediaOptions(),
+          uid: 0,
+        );
         }
+        
     return true;
   }
   @override
