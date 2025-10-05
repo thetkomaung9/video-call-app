@@ -30,7 +30,9 @@ class _CamScreenState extends State<CamScreen> {
           engine = createAgoraRtcEngine();
 
           await engine!.initialize(
-            
+            RtcEngineContext(
+              appleId: APP_ID,
+            )
           )
         }
     return true;
