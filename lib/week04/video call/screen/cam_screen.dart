@@ -35,9 +35,10 @@ class _CamScreenState extends State<CamScreen> {
             return Center(
               child: Text(
                 snapshot.error.toString(),
-              )
-            )
+              ),
+            );
           }
+          if (!)
         }
       )
     ),
