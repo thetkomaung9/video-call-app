@@ -62,10 +62,13 @@ class _CamScreenState extends State<CamScreen> {
               onUserOffline: (RtcConnection connection, int remoteUid,
               UserOfflineReasonType reason){
 
-                print('')
-              }
-            )
-          )
+                print('상대가 채널에서 나갔습니다. uid : $uid');
+                setState((){
+                  otherUid = null;
+                });
+              },
+            ),
+          );
         }
     return true;
   }
