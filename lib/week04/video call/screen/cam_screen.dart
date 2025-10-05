@@ -134,7 +134,12 @@ class _CamScreenState extends State<CamScreen> {
         future: init(),
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           return Column(
-          
+            crossAxisAligment: CrossAxisAligment.stretch,
+            children:[
+              Expanded(
+                
+              )
+            ]
           )
           if (snapshot.hasError) {
             return Center(
