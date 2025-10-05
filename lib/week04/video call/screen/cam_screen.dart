@@ -18,10 +18,12 @@ class _CamScreenState extends State<CamScreen> {
     if(uid !== null){
       return AgoraVideoView(
         controller: VideoViewController(
-          rtcEngine: 
-        )
+          rtcEngine: engine!,
 
-      )
+          canvas: const VideoCanvas(uid: 0),
+        ),
+
+      );
     }
   }
   RtcEngine? engine;
