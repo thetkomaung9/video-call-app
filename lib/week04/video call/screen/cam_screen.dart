@@ -5,5 +5,12 @@ class CamScreen extends StatefulWidget {
 
   @override
   _CamScreenState createState() => _CamScreenState();
-  
+
+}
+
+class _CamScreenState extends State<CamScreen> {
+  @override
+  Widget build(BuildContext context) {
+    
+  }
 }
