@@ -27,7 +27,9 @@ class _CamScreenState extends State<CamScreen> {
           throw '카메라 또는 마이크 권한이 없습니다.';
         }
         if (engine == null) {
-          engine = create
+          engine = createAgoraRtcEngine();
+
+          
         }
     return true;
   }
