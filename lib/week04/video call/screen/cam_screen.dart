@@ -146,8 +146,12 @@ class _CamScreenState extends State<CamScreen> {
             );
           }
 
-          return Center(
-            child: Text('모든 권한이 있습니다'),
+          return Stack(
+            children: [
+              renderMainView(),
+              Ali
+            ]
+          )
           );
         }
       ),
