@@ -165,6 +165,7 @@ class _CamScreenState extends State<CamScreen> {
                   child: Text('채널 나가기'),
                 ),
               ),
+            ],
           );
           
         },
@@ -172,3 +173,4 @@ class _CamScreenState extends State<CamScreen> {
     );
     
   }
+  
