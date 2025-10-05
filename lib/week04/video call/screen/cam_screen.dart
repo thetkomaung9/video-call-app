@@ -14,7 +14,10 @@ class _CamScreenState extends State<CamScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('LIVE'),
-      )
-    )
+      ),
+      body: Center(
+        child: Text('Camera Screen'),
+    ),
+    );
   }
 }
