@@ -138,23 +138,6 @@ class _CamScreenState extends State<CamScreen> {
             children:[
               Expanded(
                 child: Stack(
-              )
-            ]
-
-          if (snapshot.hasError) {
-            return Center(
-              child: Text(
-                snapshot.error.toString(),
-              ),
-            );
-          }
-          if(!snapshot.hasData){
-            return Center(
-              child: CircularProgressIndicator(),
-            );
-          }
-
-          return Stack(
             children: [
               renderMainView(),
               Align(
