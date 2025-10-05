@@ -30,7 +30,15 @@ class _CamScreenState extends State<CamScreen> {
       ),
       body: FutureBuilder(
         future: init(),
-        builder: (BuildContext context, AsyncSnapshot snapshot)
+        builder: (BuildContext context, AsyncSnapshot snapshot) {
+          if (snapshot.hasError) {
+            return Center(
+              child: Text(
+                snapshot.error.toString(),
+              )
+            )
+          }
+        }
       )
     ),
     );
