@@ -49,6 +49,7 @@ class _CamScreenState extends State<CamScreen> {
       );
     }
   }
+  }
 
   RtcEngine? engine;
   int? uid;
