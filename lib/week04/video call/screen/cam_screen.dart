@@ -43,7 +43,10 @@ class _CamScreenState extends State<CamScreen> {
               child: CircularProgressIndicator(),
             );
           }
-          
+
+          return Center(
+            child: Text('')
+          )
         }
       )
     ),
