@@ -61,9 +61,8 @@ class _CamScreenState extends State<CamScreen> {
     final cameraPermission = resp[Permission.camera];
     final micPermission = resp[Permission.microphone];
 
-        if (cameraPermission != PermissionStatus.granted ||
-    micPermission != PermissionStatus.granted)
-{
+    if (cameraPermission !=PermissionStatus.granted ||
+        micPermission != Permission.microphone) {
           throw '카메라 또는 마이크 권한이 없습니다.';
         }
         if (engine == null) {
