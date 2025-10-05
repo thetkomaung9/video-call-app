@@ -95,7 +95,9 @@ class _Logo extends StatelessWidget {
         ElevatedButton(
           onPressed: () {
             Navigator.of(context).push(
-              Material
+              MaterialPageRoute(
+                
+              )
             )
           },
           child: Text('입장하기'),
