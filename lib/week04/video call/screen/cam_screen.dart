@@ -16,7 +16,9 @@ class CamScreen extends StatefulWidget {
 class _CamScreenState extends State<CamScreen> {
   Widget renderSubView(){
     if(uid !== null){
-      return Ago
+      return AgoraVideoView(
+        
+      )
     }
   }
   RtcEngine? engine;
