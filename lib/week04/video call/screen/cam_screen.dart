@@ -18,7 +18,7 @@ class _CamScreenState extends State<CamScreen> {
 
     if (cameraPermission !=PermissionStatus.granted ||
         micPermission != Permission.microphone) {
-          throw ''
+          throw '카메라 또는 마이크 권한이 없습니다.';
         }
   }
   @override
