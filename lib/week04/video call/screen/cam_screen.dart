@@ -69,6 +69,8 @@ class _CamScreenState extends State<CamScreen> {
               },
             ),
           );
+
+        await engine!.setClientRole(role: ClientRoleType.clientRoleBroadcaster);
         }
     return true;
   }
