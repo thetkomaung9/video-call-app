@@ -11,6 +11,10 @@ class CamScreen extends StatefulWidget {
 class _CamScreenState extends State<CamScreen> {
   @override
   Widget build(BuildContext context) {
-    
+    return Scaffold(
+      appBar: AppBar(
+        
+      )
+    )
   }
 }
