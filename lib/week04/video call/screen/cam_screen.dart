@@ -20,6 +20,7 @@ class _CamScreenState extends State<CamScreen> {
         micPermission != Permission.microphone) {
           throw '카메라 또는 마이크 권한이 없습니다.';
         }
+    return true;
   }
   @override
   Widget build(BuildContext context) {
