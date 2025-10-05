@@ -150,7 +150,11 @@ class _CamScreenState extends State<CamScreen> {
                 ),
               ),
             ],
-            
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 8.0)
+              )
           );
           
         },
