@@ -39,7 +39,10 @@ class _CamScreenState extends State<CamScreen> {
           engine!.registerEventHandler(
 
             RtcEngineEventHandler(
-              onJoinChannelSuccess: (RtcConnection connection,)
+              onJoinChannelSuccess: (RtcConnection connection, int elapsed) {
+
+                print('')
+              }
             )
           )
         }
