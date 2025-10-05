@@ -58,7 +58,7 @@ class _CamScreenState extends State<CamScreen> {
                 setState((){
                   otherUid = remoteUid;
                 });
-              }
+              },
             )
           )
         }
