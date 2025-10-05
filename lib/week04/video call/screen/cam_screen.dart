@@ -149,7 +149,15 @@ class _CamScreenState extends State<CamScreen> {
           return Stack(
             children: [
               renderMainView(),
-              Ali
+              Align(
+                alignment: Alignment.topleft,
+                child: Container(
+                  color: Colors.grey,
+                  height: 160,
+                  width: 120,
+                  child: renderSubView(),
+                ),
+              ),
             ]
           )
           );
