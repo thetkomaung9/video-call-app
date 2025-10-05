@@ -37,7 +37,10 @@ class _CamScreenState extends State<CamScreen> {
           );
 
           engine!.registerEventHandler(
-            
+
+            RtcEngineEventHandler(
+              
+            )
           )
         }
     return true;
