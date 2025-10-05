@@ -16,7 +16,8 @@ class _CamScreenState extends State<CamScreen> {
     final cameraPermission = resp[Permission.camera];
     final micPermission = resp[Permission.microphone];
 
-    if (cameraPermission !=Permission)
+    if (cameraPermission !=PermissionStatus.granted ||
+        micPermission != Permission)
   }
   @override
   Widget build(BuildContext context) {
