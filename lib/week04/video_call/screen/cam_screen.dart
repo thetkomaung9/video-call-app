@@ -134,14 +134,14 @@ class _CamScreenState extends State<CamScreen> {
         future: init(),
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           return Column(
-            crossAxisAligment: CrossAxisAlignment.stretch,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children:[
               Expanded(
                 child: Stack(
             children: [
               renderMainView(),
               Align(
-                alignment: Alignment.topleft,
+                alignment: Alignment.topLeft,
                 child: Container(
                   color: Colors.grey,
                   height: 160,
