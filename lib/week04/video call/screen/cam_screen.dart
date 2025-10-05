@@ -30,7 +30,7 @@ class _CamScreenState extends State<CamScreen> {
       ),
       body: FutureBuilder(
         future: init(),
-        builder: (BuildContext context, AsyncSnapshot)
+        builder: (BuildContext context, AsyncSnapshot snapshot)
       )
     ),
     );
