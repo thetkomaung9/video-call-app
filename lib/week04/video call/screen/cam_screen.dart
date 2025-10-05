@@ -10,6 +10,10 @@ class CamScreen extends StatefulWidget {
 }
 
 class _CamScreenState extends State<CamScreen> {
+  RtEngine? engine;
+  int? uid;
+  int? otherUid;
+  
   Future<bool> init() async {
     final resp = await [Permission.camera, Permission.microphone].request();
 
