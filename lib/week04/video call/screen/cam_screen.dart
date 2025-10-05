@@ -40,9 +40,10 @@ class _CamScreenState extends State<CamScreen> {
           }
           if(!snapshot.hasData){
             return Center(
-              
-            )
+              child: CircularProgressIndicator(),
+            );
           }
+          
         }
       )
     ),
