@@ -17,7 +17,10 @@ class _CamScreenState extends State<CamScreen> {
   Widget renderSubView(){
     if(uid !== null){
       return AgoraVideoView(
-        
+        controller: VideoViewController(
+          rtcEngine: 
+        )
+
       )
     }
   }
