@@ -40,6 +40,8 @@ class _CamScreenState extends State<CamScreen> {
           connection: const RtcConnection(channelId: CHANNEL_NAME),
         ),
       );
+    }else{
+      
     }
   }
 
