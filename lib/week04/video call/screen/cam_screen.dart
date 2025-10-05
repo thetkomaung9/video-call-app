@@ -41,7 +41,11 @@ class _CamScreenState extends State<CamScreen> {
         ),
       );
     }else{
-      
+      return Center(
+        child: const Text(
+          ''
+        )
+      )
     }
   }
 
