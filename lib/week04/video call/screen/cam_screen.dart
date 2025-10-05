@@ -45,7 +45,7 @@ class _CamScreenState extends State<CamScreen> {
           }
 
           return Center(
-            child: Text('')
+            child: Text('모든 ')
           )
         }
       )
