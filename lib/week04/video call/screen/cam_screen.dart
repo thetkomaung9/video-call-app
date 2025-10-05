@@ -13,7 +13,10 @@ class _CamScreenState extends State<CamScreen> {
   Future<bool> init() async {
     final resp = await [Permission.camera, Permission.microphone].request();
 
-    
+    final cameraPermission = resp[Permission.camera];
+    final micPermission = resp[Permission.microphone];
+
+    if (cameraPermission !=Permission)
   }
   @override
   Widget build(BuildContext context) {
