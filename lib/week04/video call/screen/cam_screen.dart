@@ -38,7 +38,11 @@ class _CamScreenState extends State<CamScreen> {
               ),
             );
           }
-          if (!)
+          if(!snapshot.hasData){
+            return Center(
+              
+            )
+          }
         }
       )
     ),
