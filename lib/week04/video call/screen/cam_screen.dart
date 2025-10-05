@@ -32,7 +32,12 @@ class _CamScreenState extends State<CamScreen> {
           await engine!.initialize(
             RtcEngineContext(
               appleId: APP_ID,
-            )
+              channelProfile: ChannelProfileType.channelProfileLiveBroadcasting,
+            ),
+          );
+
+          engine!.registerEventHandler(
+            
           )
         }
     return true;
