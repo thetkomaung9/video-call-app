@@ -13,7 +13,7 @@ class _CamScreenState extends State<CamScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        
+        title: Text('LIVE'),
       )
     )
   }
