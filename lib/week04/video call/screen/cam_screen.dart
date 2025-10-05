@@ -28,8 +28,10 @@ class _CamScreenState extends State<CamScreen> {
       appBar: AppBar(
         title: Text('LIVE'),
       ),
-      body: Center(
-        child: Text('Camera Screen'),
+      body: FutureBuilder(
+        future: init(),
+        buil
+      )
     ),
     );
   }
