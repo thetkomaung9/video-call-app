@@ -78,7 +78,9 @@ class _CamScreenState extends State<CamScreen> {
         await engine!.joinChannel(
 
           token: TEMP_TOKEN,
-          channelId:
+          channelId: CHANNEL_NAME,
+
+          options
         )
         }
     return true;
