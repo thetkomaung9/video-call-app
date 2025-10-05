@@ -42,6 +42,9 @@ class _CamScreenState extends State<CamScreen> {
               onJoinChannelSuccess: (RtcConnection connection, int elapsed) {
 
                 print('채널에 입장했습니다. uid: ${connection.localUid}');
+                setState((){
+                  
+                })
               }
             )
           )
