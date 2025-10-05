@@ -51,6 +51,10 @@ class _CamScreenState extends State<CamScreen> {
                 setState((){
                   uid = null;
                 });
+              },
+              onUserJoined: (RtcConnection connection, int remoteUid, int elapsed){
+
+                print('object')
               }
             )
           )
