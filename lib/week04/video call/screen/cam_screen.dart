@@ -14,6 +14,9 @@ class CamScreen extends StatefulWidget {
 }
 
 class _CamScreenState extends State<CamScreen> {
+  Widget renderSubView(){
+    if(uid !== null){}
+  }
   RtcEngine? engine;
   int? uid;
   int? otherUid;
@@ -84,7 +87,7 @@ class _CamScreenState extends State<CamScreen> {
           uid: 0,
         );
         }
-        
+
     return true;
   }
   @override
