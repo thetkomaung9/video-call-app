@@ -24,6 +24,9 @@ class _CamScreenState extends State<CamScreen> {
         ),
 
       );
+    } else {
+
+      return CircularProgressIndicator();
     }
   }
   RtcEngine? engine;
