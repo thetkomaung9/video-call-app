@@ -158,10 +158,10 @@ class _CamScreenState extends State<CamScreen> {
                   child: renderSubView(),
                 ),
               ),
-            ]
-          )
+            ],
           );
-        }
+          
+        },
       ),
     );
     
