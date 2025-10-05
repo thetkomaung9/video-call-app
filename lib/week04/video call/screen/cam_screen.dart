@@ -43,9 +43,10 @@ class _CamScreenState extends State<CamScreen> {
     }else{
       return Center(
         child: const Text(
-          ''
-        )
-      )
+          '다른 사용자가 입장할 때까지 대기해주세요.',
+          textAlign: TextAlign.center,
+        ),
+      );
     }
   }
 
