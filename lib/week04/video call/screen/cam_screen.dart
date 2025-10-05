@@ -137,10 +137,8 @@ class _CamScreenState extends State<CamScreen> {
             crossAxisAligment: CrossAxisAligment.stretch,
             children:[
               Expanded(
-                child: Stack()
-              )
-            ]
-          )
+                child: Stack(
+              
           if (snapshot.hasError) {
             return Center(
               child: Text(
