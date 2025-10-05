@@ -10,7 +10,9 @@ class CamScreen extends StatefulWidget {
 }
 
 class _CamScreenState extends State<CamScreen> {
-  
+  Future<bool> init() async {
+    final resp = await [Permission.camera, Permission.microphone]
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
