@@ -159,9 +159,12 @@ class _CamScreenState extends State<CamScreen> {
                     if (engine != null) {
                       await engine!.leaveChannel();
                     }
-                  }
-                )
-              )
+
+                    Navigator.of(context).pop();
+                  },
+                  child: Text('채널 나가기'),
+                ),
+              ),
           );
           
         },
