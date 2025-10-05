@@ -29,8 +29,20 @@ class _CamScreenState extends State<CamScreen> {
       return CircularProgressIndicator();
     }
   }
+  Widget renderMainView(){
+    if (otherUid != null){
+      return AgoraVideoView(
 
-  
+        controller: VideoViewController.remote(
+          rtcEngine: engine!,
+
+          canvas: VideoCanvas(uid: otherUid),
+          connection: const RtcConnection(channelId: CHANNEL_NAME),
+        ),
+      );
+    }
+  }
+
   RtcEngine? engine;
   int? uid;
   int? otherUid;
