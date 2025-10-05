@@ -93,7 +93,9 @@ class _Logo extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            
+          },
           child: Text('입장하기'),
         ),
       ],
