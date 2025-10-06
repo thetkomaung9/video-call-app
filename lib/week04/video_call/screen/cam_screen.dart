@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
-import 'package:video_call/const/agora.dart';
+import 'package:video_call_app/const/agora.dart';
+
 
 class CamScreen extends StatefulWidget {
   const CamScreen({Key? key}) : super(key: key);
