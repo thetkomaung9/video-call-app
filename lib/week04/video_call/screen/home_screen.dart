@@ -80,7 +80,7 @@ class _Logo extends StatelessWidget {
   Widget build (BuildContext context){
     return Center(
       child: Image.asset(
-        'assets/img/home_image.png',
+        'assets/img/home_img.png',
     ),
     );
   }
