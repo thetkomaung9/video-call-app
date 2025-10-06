@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:video_call/screen/cam_screen.dart';
+import 'package:video_call_app/screen/cam_screen.dart';
 
 
 
