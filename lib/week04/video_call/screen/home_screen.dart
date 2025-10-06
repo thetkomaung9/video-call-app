@@ -91,7 +91,7 @@ class _Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Column(
-      mainAxisAligment: MainAxisAlignment.end,
+      mainAxisAlignment: MainAxisAlignment.end,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         ElevatedButton(
