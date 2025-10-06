@@ -48,7 +48,7 @@ class _Logo extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.all(16.0),
           child: Row(
-            mainAxisSize: mainAxisSize.min,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Icon(
                 Icons.videocam,
