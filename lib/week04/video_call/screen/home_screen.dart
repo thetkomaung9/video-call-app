@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cam_screen.dart';   // တူညီ folder ထဲမှာရှိလို့ relative import
+import 'cam_screen.dart';   
 
 
 
