@@ -86,7 +86,6 @@ class _Logo extends StatelessWidget {
   }
     
  }
-
  class _EntryButton extends StatelessWidget{
   const _EntryButton({Key? key}) : super (key: key);
 
