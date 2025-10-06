@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:video_call/screen/cam_screen.dart';
-
-
-
+import 'package:video_call/screen/cam_screen.dart'; // တစ်ခုတည်းထားပါ
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super (key: key);
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  Widget build (BuildContext context) {
+  Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[100]!,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
-            children: [
+            children: const [
               Expanded(child: _Logo()),
               Expanded(child: _Image()),
               Expanded(child: _EntryButton()),
@@ -28,10 +25,10 @@ class HomeScreen extends StatelessWidget {
 }
 
 class _Logo extends StatelessWidget {
-  const _Logo({Key? key}) : super (key: key);
+  const _Logo({Key? key}) : super(key: key);
 
   @override
-  Widget build (BuildContext context){
+  Widget build(BuildContext context) {
     return Center(
       child: Container(
         decoration: BoxDecoration(
@@ -39,17 +36,17 @@ class _Logo extends StatelessWidget {
           borderRadius: BorderRadius.circular(16.0),
           boxShadow: [
             BoxShadow(
-              color: Colors.blue[300]!,
+              color: Colors.blue,
               blurRadius: 12.0,
               spreadRadius: 2.0,
             ),
           ],
         ),
         child: Padding(
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
+            mainAxisSize: MainAxisSize.min, // <- စာလုံးမီ
+            children: const [
               Icon(
                 Icons.videocam,
                 color: Colors.white,
@@ -62,7 +59,7 @@ class _Logo extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 30.0,
                   letterSpacing: 4.0,
-              ),
+                ),
               ),
             ],
           ),
@@ -71,40 +68,40 @@ class _Logo extends StatelessWidget {
     );
   }
 }
- class _Image extends StatelessWidget {
-  const _Image ({Key? key}) : super (key: key);
+
+class _Image extends StatelessWidget {
+  const _Image({Key? key}) : super(key: key);
 
   @override
-  Widget build (BuildContext context){
+  Widget build(BuildContext context) {
     return Center(
       child: Image.asset(
-        'asset/img/home_image.png',
-    ),
+        'assets/img/home_image.png', // <- path ကို စစ်ပါ
+      ),
     );
   }
-    
- }
+}
 
- class _EntryButton extends StatelessWidget{
-  const _EntryButton({Key? key}) : super (key: key);
+class _EntryButton extends StatelessWidget {
+  const _EntryButton({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.end,
+      mainAxisAlignment: MainAxisAlignment.end, // <- typo ဖြေရှင်း
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         ElevatedButton(
           onPressed: () {
             Navigator.of(context).push(
               MaterialPageRoute(
-                builder:(_) => CamScreen(),
+                builder: (_) => const CamScreen(),
               ),
             );
           },
-          child: Text('입장하기'),
+          child: const Text('입장하기'),
         ),
       ],
     );
   }
- }
+}
