@@ -1,3 +1,3 @@
-const App_ID = '045f08b4facf4c75bd4933d9eb45544d';
+const APP_ID = '045f08b4facf4c75bd4933d9eb45544d';
 const CHANNEL_NAME = 'sunmoon';
 const TEMP_TOKEN = '007eJxTYDiUE7XUsv1ltM3Ka4d61Wp+xSc8aixma999++1r/aL/3xwUGAxMTNMMLJJM0hKT00ySzU2TUkwsjY1TLFOTTExNTUxSXA4+ymgIZGRojixjZWSAQBCfnaG4NC83Pz+PgQEAl+cj2Q==';
